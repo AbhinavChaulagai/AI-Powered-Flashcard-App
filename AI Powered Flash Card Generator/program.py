@@ -29,10 +29,7 @@ def generate_flashcards(text):
     return flashcards
 
 # Example long input
-input_text = """
-The human brain is a complex organ responsible for processing sensory information and coordinating bodily functions. 
-It consists of several parts including the cerebrum, cerebellum, and brainstem. The cerebrum is responsible for higher cognitive functions, such as reasoning, memory, and voluntary movement.
-"""
+input_text = input("Enter the information for flashcard\n")
 
 # Summarize input
 summary = summarize_text(input_text)
